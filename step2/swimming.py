@@ -1,7 +1,7 @@
 #swimming
 a = int(input())
 
-if a == 1 or a == 3 or a == 5:
+if a in [1, 3, 5]:
   print('enjoy')
 else:
   print('oops')
